@@ -81,7 +81,7 @@ int sketchState = 2; // 1 = Sketch A, 2 = Sketch B
 
 void setup() {
   fullScreen(P3D);
-  
+  noCursor();
   // Setup for Sketch A
   incrementoZ = 20;
   colorActual = color(255);
